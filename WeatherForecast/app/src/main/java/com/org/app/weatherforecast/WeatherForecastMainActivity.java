@@ -15,10 +15,10 @@ public class WeatherForecastMainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_weather_forecast_main);
 
         mUpdateButton = (android.widget.Button)findViewById(R.id.update_button);
-        mUpdateButton.setOnClickListener(UpdateListner);
+        mUpdateButton.setOnClickListener(UpdateListener);
     }
 
-    private View.OnClickListener UpdateListner = new View.OnClickListener() {
+    private View.OnClickListener UpdateListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
         }
